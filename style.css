@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif;
+    --fonte3: 'Cormorant Garamond', serif
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: var(--fonte1);
+    min-height: 100vh;
+    background-color: rgb(245, 245, 245);
+}
+
+header{
+    background-image: url(imagens/bg4.jpeg);
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--fonte2);
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 7vw;
+}
+
+header > p{
+    font-family: var(--fonte3);
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section{
+    font-family: var(--fonte3);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3vw;
+}
+
+.i{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    box-shadow: inset 16px 16px 23px 3px rgba(0, 0, 0, 0.596);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img1{
+    background-image: url(imagens/bg1.jpeg);
+    background-position: left center;
+}
+
+section#img2{
+    background-image: url(imagens/bg2.jpeg);
+    background-position: center center;
+}
+
+section#img3{
+    background-image: url(imagens/bg3.jpeg);
+    background-position: center center;
+}
+
+section#img4{
+    background-image: url(imagens/bg4.jpeg);
+    background-position: center center;
+}
+
+section#img5{
+    background-image: url(imagens/bg5.jpeg);
+    background-position: center center;
+}
+
+section#img6{
+    background-image: url(imagens/bg6.jpeg);
+    background-position: center center;
+}
+
+section.i > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow:  1px 1px 0px rgba(0, 0, 0, 0.288);
+}
+
+section.n > p{
+    color: rgb(41, 97, 89);
+}
+
+p#f{
+    text-align: center;
+}
+
+h3{
+    color: rgb(41, 97, 89);
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    pad: 5px;
+}
